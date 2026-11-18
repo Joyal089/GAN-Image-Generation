@@ -22,7 +22,7 @@ pip install torch torchvision pillow matplotlib
 python "Image Generation with GANs.py"
 ```
 
-For the DCGAN, download a face dataset such as [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and change `root_dir` in `image generation using DCGAN.py` to point at its image folder. Training is much faster on a GPU (CUDA is used if available).
+For the DCGAN, download a face dataset such as [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and put its images in a folder called `img_celeba` in the directory you run the script from, or change `root_dir` in `image generation using DCGAN.py` to point somewhere else. Training is much faster on a GPU (CUDA is used if available).
 
 ## Results
 

@@ -41,7 +41,7 @@ class CustomImageDataset(Dataset):
         return img
 
 # Load your dataset (path to your images)
-dataset = CustomImageDataset(root_dir=r'C:\Users\joyal\Desktop\to become machine learning enginerr\Generative Ai\Image Generation with GANs\img_celeba', transform=transform)
+dataset = CustomImageDataset(root_dir='img_celeba', transform=transform)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 # Define the Generator model

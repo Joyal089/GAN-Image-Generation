@@ -2,7 +2,7 @@ import os
 import glob
 
 # Specify your image directory
-image_dir = r"C:\Users\joyal\Desktop\to become machine learning enginerr\Generative Ai\Image Generation with GANs\img_celeba"
+image_dir = "img_celeba"  # folder of CelebA images, relative to where you run the script
 
 # Get all jpg image paths in the directory
 image_paths = glob.glob(os.path.join(image_dir, '*.jpg'))
